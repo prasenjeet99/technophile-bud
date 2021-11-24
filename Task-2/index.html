@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <header>
+    <section class="title-text">
+      <h1 id="title">Survey Form</h1>
+      
+    </section>
+  </header>
+  
+  <main>
+    <form id="survey-form">
+      <section id="survey-fields">
+        <!-- identification fields -->
+        <label for="name" id="name-label"><i class="far fa-user"></i>  User Name:</label>
+        <input id="name" type="text" placeholder="enter your name" required>
+        <label for="Email" id="email-label"><i class="fas fa-envelope"></i>  Email:</label>
+        <input id="email" type="email" placeholder="enter your email"  required>
+        <label for="number" id="number-label"><i class="far fa-calendar-alt"></i> Age:</label>
+        <input id="number" type="date" placeholder="enter your age" min=1 max=125 required>
+        
+        <label for="dropdown">  Gender</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#"> Male </option>
+          <option value="#"> Female </option>
+          <option value="#">Other</option>
+        </select>
+
+        <br> 
+        <!-- Which option best describes your current role -->
+        <label for="dropdown">1. Are you satisfied with the teaching staff and their teaching methods?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely satisfied </option>
+          <option value="#"> Very satisfied </option>
+          <option value="#"> Satisfied </option>
+          <option value="#"> Neutral </option>
+          <option value="#"> Dissatisfied </option>
+          <option value="#"> Very dissatisfied </option>
+          <option value="#"> Extremely dissatisfied </option>
+          <option value="#">Other</option>
+        </select>
+        <!-- Quesstion 2 -->
+        <label for="dropdown">2. How satisfied are you with the facilities provided by the college?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely satisfied </option>
+          <option value="#"> Very satisfied </option>
+          <option value="#"> Satisfied </option>
+          <option value="#"> Neutral </option>
+          <option value="#"> Dissatisfied </option>
+          <option value="#"> Very dissatisfied </option>
+          <option value="#"> Extremely dissatisfied </option>
+        </select>
+        <!-- Question 3 -->
+        <label for="dropdown">3. Was it easy to obtain the necessary resources from the college library?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Yes </option>
+          <option value="#"> No </option>
+        </select>
+        <!-- Question 4 -->
+        <label for="dropdown">4. Is it easy to obtain the necessary resources from the college library?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Yes </option>
+          <option value="#"> No </option>
+        </select>
+        <!-- Question 5 -->
+        <label for="dropdown">5. Do you feel it is easier to register for different courses within the college?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Yes </option>
+          <option value="#"> No </option>
+        </select>
+        <!-- Question 6 -->
+        <label for="dropdown">6. How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely satisfied </option>
+          <option value="#"> Very satisfied </option>
+          <option value="#"> Satisfied </option>
+          <option value="#"> Neutral </option>
+          <option value="#"> Dissatisfied </option>
+          <option value="#"> Very dissatisfied </option>
+          <option value="#"> Extremely dissatisfied </option>
+        </select>
+        <!-- Question 7 -->
+        <label for="dropdown">7. How supportive were the faculty members?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely supportive </option>
+          <option value="#"> Very supportive </option>
+          <option value="#"> supportive </option>
+          <option value="#"> Neutral </option>
+          <option value="#"> Unsupportive </option>
+          <option value="#"> Very Unsupportive </option>
+          <option value="#"> Extremely Unsupportive </option>
+        </select>
+        <!-- Question 8 -->
+        <label for="dropdown">8. What do you think of the hostel?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely crowded </option>
+          <option value="#"> Very crowded </option>
+          <option value="#"> Somewhat crowded </option>
+          <option value="#"> Not so crowded </option>
+          <option value="#"> Not at all crowded </option>
+        
+        </select>
+        <!-- Question 9 -->
+        <label for="dropdown">9. Are you satisfied with the teaching staff and their teaching practices?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Yes </option>
+          <option value="#"> No </option>
+          
+        </select>
+        <!-- Question 10 -->
+        <label for="dropdown">10. Do you think faculty and support staff at the college were helpful?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely helpful </option>
+          <option value="#"> Very helpful </option>
+          <option value="#"> Neither helpful nor unhelpful </option>
+          <option value="#"> Unhelpful </option>
+          <option value="#"> Very unhelpful </option>
+          
+        </select>
+        <!-- Question 11 -->
+        <label for="dropdown">11. How likely are you to continue attending this college next year?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely likely </option>
+          <option value="#"> Very likely </option>
+          <option value="#"> Somewhat likely </option>
+          <option value="#"> Not so likely </option>
+          <option value="#"> Not att all likely </option>
+          
+        </select>
+        <!-- Question 12 -->
+        <label for="dropdown">12. How satisfied are you with the accommodation?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Extremely satisfied </option>
+          <option value="#"> Very satisfied </option>
+          <option value="#"> Satisfied </option>
+          <option value="#"> Neutral </option>
+          <option value="#"> Dissatisfied </option>
+          <option value="#"> Very dissatisfied </option>
+          <option value="#"> Extremely dissatisfied </option>
+         
+        </select>
+        <!-- Question 13 -->
+        <label for="dropdown">13. Given a chance, are you willing to pursue another course at the college?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Definitely, Yes </option>
+          <option value="#"> Probably, Yes </option>
+          <option value="#"> Probably, No </option>
+          <option value="#"> Definitely, No </option>
+          <option value="#"> Can’t say </option>
+          
+        </select>
+        <!-- Question 14 -->
+        <label for="dropdown">14. Do you think your siblings or friends will be benefited by studying at this college?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  Definitely, Yes </option>
+          <option value="#"> Probably, Yes </option>
+          <option value="#"> Probably, No </option>
+          <option value="#"> Definitely, No </option>
+          <option value="#"> Can’t say </option>
+        </select>
+        <!-- Question 15 -->
+        <label for="dropdown">15. How many hours a week do you work your part-time job?</label>
+        <select id="dropdown" form="survey-form">
+          <option value="" disabled selected>select an option</option>
+          <option value="#">  I don’t have a job </option>
+          <option value="#"> 1-10 hours a week </option>
+          <option value="#"> 11-15 hours a week </option>
+          <option value="#"> 16-20 hours a week </option>
+          <option value="#"> More than 20 hours a week </option>
+          
+        </select>
+  
+              <!-- Any Comments or Suggestions -->
+        <label for="comments">16. Please provide us with additional feedback on areas that need improvement </label>
+        <textarea style="height:50px;resize:vertical;" id="comments" placeholder="enter a comment"></textarea>
+      </section>
+
+      <!-- submit -->
+      <button id="submit" onclick="ValidateEmail(email)">submit</button>
+    </form>
+  </main>
+ <script src="app.js"></script>
+</body>
+
+</html>
